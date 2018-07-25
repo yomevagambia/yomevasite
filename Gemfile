@@ -1,2 +1,1 @@
-gem "jekyll"," 3.5.2
-"
+gem "jekyll", "3.8.3"
