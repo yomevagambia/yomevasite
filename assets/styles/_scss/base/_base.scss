@@ -1,0 +1,70 @@
+/// default font size for the html 
+html{
+    font-size: 68.5%;
+     box-sizing: border-box;
+}
+
+// body resets
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    background: $color-grey;
+   
+   
+    
+}
+
+strong{
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 2.3rem;
+   
+    color: $color-primary;
+}
+
+//~~~~~~~~~~~~ Responsive media ~~~~~~~~~~~~
+/**
+ * 1.  allows the img to adjust together with the width of the browser
+ * 2.  preserves the aspect ration of the image
+ */
+
+.media-is-responsive{
+
+	max-width: 100%;	
+	height: auto;		
+}
+
+
+.container{
+    
+    width: 75%;
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.vertical-gap{
+     padding-top: 2rem;
+}
+
+.btn{
+  background: $color-primary;
+  color:$color-white;
+  padding: 2rem .6rem;
+  border-radius: 5px;
+  text-decoration: none;
+   display: inline-block;
+   transition: all ease-in-out 1s;
+
+ &:hover{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition: all ease-in 1s;
+ }
+}

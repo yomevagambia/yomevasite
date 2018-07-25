@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{%include nav.html%}
+
+<main>
+        <!--begin main-->
+        <section>
+            <h2 class="heading contact-heading">CONTACT US</h2>
+        </section>
+        <section class="container form-section">
+            <h2 class="heading secondary-heading">Ask Us Anything !</h2>
+            <form action="">
+                <div>
+
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div>
+
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <label for="message"></label>
+                </div>
+                <input class="btn submit" id="message" type="submit" value="Send">
+            </form>
+        </section>
+
+        <section class="contact container vertical-gap">  <!--bengin contact-->
+            <div class="email">
+                <h3 class="third-level-heading">Contact Us</h3>
+                <p>Ask us anything! <br> We are here to answer any question you have</p>
+                <a href="tel:+18475555555">3977730</a>
+                <br>
+                <a href="mailto: abc@example.com">Email:test@gmail.com</a>
+            </div>
+
+            <div class="social">
+                <h3 class="third-level-heading">Follow Us</h3>
+                <a href="https://www.facebook.com/YoMEVAgambia/?ref=page_internal" class="social-image">
+                    <img src="assets/images/facebook.png" alt="facebook">
+                </a>
+                <a href=""  class="social-image">
+                    <img src="assets/images/instagram.png" alt="facebook">
+                </a>
+                <a href="" class="social-image">
+                    <img src="assets/images/instagram.png" alt="facebook">
+                </a>
+                
+            </div>
+        </section>   <!--end contact-->
+     
+          {%include footer.html%}
+    </main>
+    <!--endmain-->

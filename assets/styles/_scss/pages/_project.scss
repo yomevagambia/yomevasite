@@ -1,0 +1,37 @@
+
+.project-heading{
+    text-align: center;
+}
+
+.project-description{
+    padding: 1rem;
+}
+
+.project{
+    
+  padding-top: 1rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+
+    &:last-child{
+        margin-bottom: 4rem;
+    }
+  
+}
+@include respond-to(tablet-large){
+
+.project{
+    display: flex;
+    margin-top: 4rem;
+ 
+}
+
+.project-title{
+    margin-top: 0;
+}
+
+.project-description, .project-title{
+    padding-left: 3rem;
+    
+}
+
+}

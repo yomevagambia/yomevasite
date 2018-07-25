@@ -1,0 +1,131 @@
+// .grid{
+//     width: 22rem;
+
+// }
+.about-text{
+    letter-spacing: .001rem;
+    text-align: justify;
+}
+
+
+
+
+.card{
+    perspective: 150rem;
+    transition: all .8s;
+    
+    
+   
+      
+    
+&__side{
+  background: rgb(211, 81, 81);
+  height: 30rem;
+  transition: all .8s;
+   transform: rotateY(180deg);
+
+  top:0;
+  left: 0;
+  width: 100%;
+
+
+
+  
+}
+
+       
+   &:hover &__side{
+       transform: rotateY(180deg);
+      
+   }
+   
+
+   
+     
+
+
+
+
+
+}
+
+ 
+  
+
+
+
+
+
+.executive-name{
+    margin-bottom: .5rem;
+    font-size: 1em;
+    
+}
+
+.position{
+     margin-top: -.5rem;
+     font-size: 1em;
+}
+
+.executive-details{
+    border: 1px solid #e0e0e0db;
+    width:214px;
+    color: $color-primary;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+    
+   
+    
+	padding: 0 1rem;
+	
+	background-color: #fcfcfc;
+	
+    transition: all .3s ease-in;
+    
+    &:hover{
+        background: $color-primary;
+        color: #FFFFFF;
+    }
+
+}
+
+//this is a hack fix edit the images later
+.executive-image{
+    width: 234px;
+    height: 250px;
+}
+@include respond-to(tablet-small){
+    .grid{
+        display: grid;
+        grid-gap: 2.5rem;
+         grid-template-columns: 1fr 1fr;
+    }
+
+    .executive-details{
+        width: 212px;
+    }
+}
+@include respond-to(tablet-large){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2.5rem;
+
+
+    }
+
+     .constitution{
+        display: block;
+    /* text-align: center; */
+         width: 20rem;
+           margin: 0 auto;
+           padding: 4rem 0;
+       }
+
+    // .executive-details{
+    //     width:214px;
+    // }
+
+   
+}
+
+

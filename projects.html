@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% include nav.html%}
+<main>
+        <h1 class="primary-heading project-heading">OUR PROJECTS</h1>
+        <section class="container projects">  <!--begin project-->
+            {% for project in site.projectcollection%}
+            <div class="project">
+                <img class="media-is-responsive" src="{{project.image}}" alt="">
+                <div class="project-description">
+                        <h3 class="primary-heading project-title">{{project.title}}</h3>
+                        <p class="project-description">
+                           {{project.description}}
+        
+                        </p>
+                </div>
+                  <!-- <a href="{{p.url}}" class="btn">Read More</a> -->
+            </div>
+            {% endfor %}
+
+            <div class="project">
+                    <img class="media-is-responsive" src="assets/images/project.jpg" alt="">
+                   <div class="project-description">
+                        <h3 class="primary-heading project-title">PROJECT 1</h3>
+                        <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus harum vitae totam veritatis explicabo ducimus ipsa quidem
+                            odio, inventore quibusdam.
+        
+                        </p>
+                   </div>
+                </div>
+
+              
+
+                   
+
+        </section>   <!--end project-->
+</main>

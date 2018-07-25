@@ -1,0 +1,78 @@
+
+
+.section-text  {
+  
+   letter-spacing: .001rem;
+   padding-right: 1rem;
+   
+    
+
+}
+
+
+
+
+
+@include respond-to(tablet-large){
+   .whatwedo-section{
+     display: flex;
+     align-items: center;
+}
+
+.section-text{
+    width:75%;
+}
+.cards{
+    display: grid;
+     grid-template-columns: 1fr 1fr; 
+     margin-top: 2em;
+     grid-gap: 4rem;
+}
+
+.card-item{
+   transition: all ease-out 1s;
+    margin: 1rem;
+    &:hover{
+        transform: scale(1.1);
+        transition: all ease-in 1s;
+    }
+}
+.primary-heading{
+    text-align: left;
+   
+    
+}
+}
+
+.card-item{
+    background: $color-white;
+    border-radius: 5px;
+
+// box-shadow: 0 0 10px 9px rgba(0, 0, 0, .1);
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-header{
+    padding: 1.5rem;
+}
+
+.card-description{
+   
+    padding: 1.5rem;
+}
+
+.card-image{
+    height: 200px;
+}
+
+.card-item{
+   
+    margin: 0 0;
+}
+
+.main-footer{
+    background-color: $color-primary;
+    padding: 1.6em;
+    color: white;
+}
+

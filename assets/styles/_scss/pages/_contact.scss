@@ -1,0 +1,101 @@
+.contact-heading{
+    
+    letter-spacing: 0.05rem;
+    padding: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-image: linear-gradient(rgba(34, 65, 93, 0.06),rgba(0, 0, 255, 0.144)), url(../../images/about.jpeg);
+    background-size: cover;
+    margin-top: -.1rem;
+
+    background: rgba(38, 71, 101, 0.9);
+    color:#FFFFFF;
+    
+}
+
+.secondary-heading{
+
+    margin-top: 0;
+}
+
+ input{
+       height: 50px;
+  
+    
+}
+.third-level-heading{
+    font-size: 1.6rem;
+    color: #868686;
+}
+
+a{
+    text-decoration: none;
+     color: #868686;
+}
+
+label{
+    display: block;
+    position: relative;
+    top: -1.8rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    z-index: 3;
+
+    
+    
+}
+
+
+
+input[type="text"], input[type="email"], textarea{
+    box-sizing: border-box;
+    margin-top: .5rem;
+    border: none;
+    border: 2px solid rgba(238, 238, 238, 0.109);
+    background: rgba(229, 235, 237, 1);
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    &:focus{
+        outline: none;
+    }
+     
+     
+   
+    
+}
+
+input:focus + label{
+    top: -6rem;
+}
+
+
+.submit{
+    border: none;
+    width: 10rem;
+}
+
+
+@include respond-to(tablet-large){
+  
+
+   .form-section{
+       display: flex;
+         
+   }
+   form{
+         margin-left: auto;
+           width: 100%;
+   }
+
+   .contact{
+       display: flex;
+       padding: 2rem 0 2rem 0;
+       
+   }
+   .social{
+       margin-left: auto;
+   }
+}    

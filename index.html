@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+
+<main>
+    <section class="slider">
+        <!--begin slider-->
+        <img src="assets/images/training.jpeg" class="media-is-responsive" alt="training.jpg" width="100%">
+
+    </section>
+    <!--end slider-->
+
+    <section class="whatwedo-section container vertical-gap">
+        <!--begin what we do-->
+
+        <div>
+            <h2 class="heading home-heading">What we Do</h2>
+            <p class="section-text">
+                    We empower 	and promote young people’s active engagement in economic, 	political, and social undertakings.
+                    we also 	promote youth employment at the grass root and national levels 	through skill and entrepreneurship.
+            </p>
+
+            <a href="about.html" class="btn">About The Movement</a>
+        </div>
+        <video class="vertical-gap" src="firebase.mp4" width=" 295px;" height="240" controls></video>
+    </section>
+    <!-- end section-->
+
+
+    <section class="mission-vision vertical-gap">
+        <!--begin mission-->
+        <div class="cards container">
+            {% for o in site.whatwedocollection %}
+            <div class="card-item">
+                <h3 class="heading card-header">{{o.title}}</h3>
+                <img class="card-image media-is-responsive" src="{{o.image}}" alt="{{o.title}}">
+                <p class="card-description">
+                    {{o.description}}
+                </p>
+            </div>
+
+            {% endfor %}
+           
+
+
+
+
+        </div>
+
+    </section>
+    <!--end mission-->
+
+    <section class="partners container vertical-gap">
+        <h3 class="heading">Our Partners</h3>
+
+        <img src="assets/images/partner1.png" alt="firstpartner">
+        <img src="assets/images/partner2.png" alt="firstpartner">
+        <img src="assets/images/partner3.png" alt="firstpartner">
+        
+    </section>
+
+    {% include footer.html%}
+
+</main>

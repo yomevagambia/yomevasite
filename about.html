@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section> <!--begin about image-->
+    <img src="assets/images/about2.jpeg" alt="about" width="100%">
+</section>   <!--end about image-->
+
+<section class="about container">    <!--begin about -->
+    <h3 class="heading">About Us</h3>
+    <div class="about-text">
+        <p>
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et ea quisquam rem quasi quod dolores magnam libero, quam voluptatum
+            repellendus totam expedita voluptates praesentium corporis repudiandae ipsum at nesciunt soluta est sunt alias. Pariatur,
+            aliquam obcaecati itaque error aperiam, delectus doloribus quia laborum dolorum animi libero commodi beatae optio? Libero
+            sit cum tempora aliquam provident cupiditate quae, ad numquam! Obcaecati iusto quibusdam beatae iste, fugiat odit excepturi
+            accusamus. Ab, quidem! Necessitatibus incidunt ipsa vero nihil tempore tenetur odit? Tenetur deleniti unde molestiae soluta
+            eligendi, natus provident in veritatis fuga explicabo praesentium nostrum consectetur corrupti impedit eum nam ut, odio cumque
+            sed minus magnam assumenda nihil. Nobis quo maxime
+        </p>
+        <p>
+             excepturi voluptate saepe alias itaque voluptates quia inventore id quaerat nisi beatae cum praesentium laborum tempore
+            dicta ullam consectetur necessitatibus, iure ab, at mollitia officiis! Nisi aliquam ea recusandae ratione repellendus nobis
+            dignissimos perspiciatis accusantium atque sit vel ex veniam quaerat quam ad incidunt in temporibus possimus odio perferendis
+            quasi, voluptatibus maxime eius? Quas ipsum ad quisquam distinctio? Ducimus culpa dolorem sint cupiditate distinctio quasi
+            dolorum rerum et. Reprehenderit porro repellat necessitatibus quasi illo officia delectus a earum cupiditate enim tempore
+            tenetur quis, quam quaerat cumque corrupti non facilis reiciendis repellendus sed.
+        </p>
+    </div>
+</section> <!--end about -->
+
+<section class="executive container">  <!--begin executive-->
+    <h3 class="heading">Our Executive</h3>
+    <div class="grid ">
+        {% for e in site.executivecollection %}
+        <div class="card grid__item--front vertical-gap">
+           
+            <img  class=" media-is-responsive executive-image" src="{{e.image}}" alt="{{e.name}}">
+             <hgroup class="executive-details">
+                 <h2 class=" executive-name">{{e.name}}</h2>
+                 <h5 class="position">{{e.position}} </h5>
+                  
+             </hgroup>
+            
+            
+<!--                 
+             <div class="card__side  card__side--back">
+                <h4>Back</h4>
+            </div> -->
+
+        </div>
+        {%endfor%}
+       
+     
+      
+       
+
+      
+      
+    </div>
+
+</section>  <!--end executive-->
+
+<section class="constitution vertical-gap"> <!--begin our constitution-->
+    <a href="" class="btn"> Downnload Our Constitution</a>
+ </section> <!--end our constitution-->
+
+ {% include footer.html%}
