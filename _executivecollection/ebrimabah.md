@@ -1,5 +1,5 @@
 ---
 name: EBRIMA BAH
 position: AUDITOR GENERAL
-image: assets/images/ebrima.png
+image: assets/images/ebrima.jpeg
 ---
