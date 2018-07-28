@@ -11,20 +11,23 @@ layout: default
         </section>
         <section class="container form-section">
             <h2 class="heading secondary-heading">Ask Us Anything !</h2>
-            <form action="">
+            <form  action="https://formspree.io/baboucarrd43@email.com" method="POST" >
                 <div>
 
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" name="name" required>
                     <label for="name">Name</label>
                 </div>
                 <div>
 
                     <input type="email" id="email" required>
-                    <label for="email">Email</label>
+                    <label for="email" name="_replyto">Email</label>
                 </div>
                 <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
                     <label for="message"></label>
+                </div>
+                <div>
+                    <input type="hidden" name="_language" value="es" />
                 </div>
                 <input class="btn submit" id="message" type="submit" value="Send">
             </form>
