@@ -1,5 +1,5 @@
 ---
 name: AMINATA JAITEH
-position: AUDITOR GENERAL
+position: ASSISTANT CHAIRPERSON
 image: assets/images/aminata.png
 ---

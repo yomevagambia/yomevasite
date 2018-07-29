@@ -1,5 +1,5 @@
 ---
 name: YANKUBA MANNEH
-position: SECETARY
+position: ASSISTANT IPRO
 image: assets/images/yankuba.jpeg
 ---
