@@ -1,5 +1,5 @@
 ---
 name: YUSUPHA MANNEH
-position: SG
+position: SECRETARY GENERAL
 image: assets/images/yusupha.png
 ---

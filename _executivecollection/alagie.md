@@ -1,5 +1,5 @@
 ---
 name: ALHAGIE MBOOB
 position: PRESIDENT
-image: assets/images/alagie.png
+image: assets/images/alagie.jpeg
 ---
