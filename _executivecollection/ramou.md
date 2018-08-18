@@ -1,5 +1,5 @@
 ---
 name: RAMOU FAYE
-position: TREASURER
+position: ASSISTANT TREASURER
 image: assets/images/r.png
 ---
