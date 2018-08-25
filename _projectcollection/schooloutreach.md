@@ -1,6 +1,6 @@
 ---
 title: SCHOOL OUTREACH
-image: assets/images/schooloutreach.jpeg
+image: assets/images/project2.jpg
 description: In recognition of the importance of young people's involvement in the quest for a peaceful Africa, and as a youth organization with the self-tasked to work within the framework of SDG8, which seeks to attain a target to reduce youth unemployment and operationalize a global strategy for youth employment; and SDG16 which promotes peaceful and inclusive societies for sustainable development, the Youths’ Movement for Employment and     Violence - free Africa ( YoMEVA ) decided to embark on a two week nationwide school outreach on peace advocacy.
 ---
 
