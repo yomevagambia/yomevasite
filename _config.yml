@@ -42,6 +42,6 @@ collections:
   executivecollection:
      output: true;
   projectcollection:
-      
+        output: true;
    
 
