@@ -1,5 +1,5 @@
 ---
 name: ADAMA NDOW
 position: SOCIAL SECETARY
-image: assets/images/adama.png
+image: assets/images/adama.jpeg
 ---
