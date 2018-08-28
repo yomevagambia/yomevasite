@@ -1,5 +1,5 @@
 ---
 name: EBRIMA CEESAY
-position: IPRO 1
+position: IPRO 
 image: assets/images/ebrimaceesay.jpeg
 ---
