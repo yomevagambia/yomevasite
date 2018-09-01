@@ -16,12 +16,21 @@
     font-size: 2.3rem;
     width: 80%;
 }
+
+.apply-btn{
+    margin: 4rem 0 2rem 7rem;
+    width: 84%;
+}
 }
 
+// this is a hack fix it!
 .apply-btn{
      display: flex;
      align-items: center;
      justify-content: center;
-     margin-top: 4rem;
-     margin-bottom: 2rem;
+      margin-bottom: 1rem;
+     
+    
+     
+     
 }
