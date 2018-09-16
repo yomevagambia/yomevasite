@@ -1,5 +1,5 @@
 ---
 name: YANKUBA MANNEH
-position: ASSISTANT IPRO
+position:  PROGRAM OFFICER
 image: assets/images/yankuba.jpeg
 ---
